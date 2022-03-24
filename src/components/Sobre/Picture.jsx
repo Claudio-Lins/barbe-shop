@@ -8,6 +8,7 @@ export function Picture() {
         src="/imgs/sobre/img_sobre.jpg"
         alt="Barbearia"
         layout="fill"
+        objectFit="cover"
       />
       <div className='absolute w-72 h-72 md:w-96 md:h-96 border-[#FCA92C] border-2 top-4 -left-4'></div>
     </div>

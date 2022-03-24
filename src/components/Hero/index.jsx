@@ -4,9 +4,9 @@ import Image from 'next/image'
 export function Hero() {
   return (
     <>
-      <div className="relative h-screen w-full">
+      <div className="relative h-screen w-full filter brightness-50">
         <Image
-          src="/imgs/cover_hero.jpg"
+          src="/imgs/hero/image_01.jpg"
           alt="Hero"
           layout="fill"
           objectFit="cover"
