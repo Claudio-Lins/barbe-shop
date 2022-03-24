@@ -5,9 +5,8 @@ export const Container = tw.div`
     justify-between
     items-center
     p-4
-    bg-gray-500
-    bg-opacity-10
     w-full
     absolute
     top-0
+    xl:max-w-screen-2xl
 `
