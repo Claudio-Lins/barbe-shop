@@ -2,7 +2,7 @@ import { createGlobalStyle } from 'styled-components'
 
 export const GlobalStyle = createGlobalStyle`
 
-html {
+/* html {
     @media (max-width: 1080px) {
         font-size: 93.75%;
     }
@@ -21,15 +21,12 @@ html {
     @media (max-width: 320px) {
         font-size: 66.67%;
     }
-}
+} */
 
 body {
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     font-family: 'Roboto', sans-serif;
-    font-size: 16px;
-    font-weight: 400;
-    line-height: 1.5;
 }
 
 button {

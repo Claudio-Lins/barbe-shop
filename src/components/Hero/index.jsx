@@ -15,8 +15,8 @@ export function Hero() {
       </div>
       <div className="flex justify-center">
         <Header />
-        <div className="absolute top-64 mt-32 flex flex-col items-center justify-center xs:mt-44 2xl:top-72 2xl:items-start">
-          <h1 className="text-4xl font-bold text-gray-50 sm:text-5xl">
+        <div className="absolute top-20 mt-32 flex flex-col items-center justify-center xs:mt-44 2xl:top-72 2xl:items-start">
+          <h1 className="text-3xl font-bold text-gray-50 sm:text-5xl">
             Barbearia do Rodrigo
           </h1>
           <span className="p-8 text-center text-gray-50 sm:px-20 sm:text-xl lg:container lg:px-56 2xl:mx-0 2xl:w-2/5 2xl:px-0 2xl:text-left">
