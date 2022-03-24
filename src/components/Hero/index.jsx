@@ -16,10 +16,10 @@ export function Hero() {
       <div>
         <Header />
         <div className="absolute top-40 mt-24 flex flex-col items-center justify-center">
-          <h1 className="text-4xl font-bold text-gray-50">
+          <h1 className="text-4xl sm:text-5xl font-bold text-gray-50">
             Barbearia do Rodrigo
           </h1>
-          <span className="p-8 text-center text-gray-50">
+          <span className="p-8 text-center sm:text-xl sm:px-20 lg:px-40 lg:container text-gray-50">
             Mussum Ipsum, cacilds vidis litro abertis. Mauris nec dolor in eros
             commodo tempor. Aenean aliquam molestie leo, vitae iaculis nisl. Pra
             lá , depois divoltis porris, paradis. Casamentiss faiz malandris se
