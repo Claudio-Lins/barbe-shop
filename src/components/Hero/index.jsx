@@ -25,7 +25,7 @@ export function Hero() {
             lá , depois divoltis porris, paradis. Casamentiss faiz malandris se
             pirulitá. Diuretics paradis num copo é motivis de denguis.
           </span>
-          <button className="rounded-lg bg-[#FCA92C] px-16 py-4 font-bold uppercase text-gray-50 hover:brightness-50">
+          <button className="rounded-lg bg-barber-shop-orange px-16 py-4 font-bold uppercase text-gray-50 hover:brightness-50">
             Agende seu corte
           </button>
         </div>
