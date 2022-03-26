@@ -5,6 +5,7 @@ import { Servicos } from '../components/Servicos'
 import { Sobre } from '../components/Sobre'
 import { TablePrice } from '../components/TablePrice'
 import { Testimony } from '../components/Testimony'
+import { WindowSizes } from '../components/WindowSizes'
 
 const Home: NextPage = () => {
   return (
@@ -16,6 +17,7 @@ const Home: NextPage = () => {
       </Head>
       <div className="">
         <main className="">
+          <WindowSizes />
           <Hero />
           <Sobre />
           <Testimony />

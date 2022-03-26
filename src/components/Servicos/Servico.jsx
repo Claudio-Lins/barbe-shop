@@ -3,8 +3,8 @@ import React, { useContext } from 'react'
 import WindowSizeContext from '../../providers/windowSize'
 
 export function Servico(props) {
-  const { windowWidth } = useContext(WindowSizeContext)
-  console.log(windowWidth)
+  const { windowWidth, windowHeight } = useContext(WindowSizeContext)
+  console.log(windowWidth, windowHeight)
 
   return (
     <div className="flex h-[150px] w-[150px] flex-col items-center justify-center">
