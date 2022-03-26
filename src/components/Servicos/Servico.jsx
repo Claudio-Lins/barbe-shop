@@ -1,10 +1,10 @@
 import Image from 'next/image'
-import React, { useContext } from 'react'
-import WindowSizeContext from '../../providers/windowSize'
+import React from 'react'
+import { useWindowSize } from '../../hooks/useWindowSize'
 
 export function Servico(props) {
-  const { windowWidth, windowHeight } = useContext(WindowSizeContext)
-  console.log(windowWidth, windowHeight)
+  const { windowWidth, windowHeight } = useWindowSize()
+  // console.log(windowWidth, windowHeight)
 
   return (
     <div className="flex h-[150px] w-[150px] flex-col items-center justify-center">

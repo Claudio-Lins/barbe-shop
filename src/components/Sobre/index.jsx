@@ -1,12 +1,12 @@
 import { Container } from "./styles";
 import { Texto } from "./Texto";
-import { Picture } from "./Picture";
+import { Picture } from "../assets/Picture";
 
 export function Sobre() {
   return (
     <Container>
       <Texto />
-      <Picture />
+      <Picture src="/imgs/sobre/img_sobre.jpg" />
     </Container>
   )
 }

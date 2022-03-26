@@ -1,7 +1,10 @@
-import { Header } from '../Header'
 import Image from 'next/image'
+import React from 'react'
+import { useToast } from '../../hooks/useToast'
+import { Header } from '../Header'
 
 export function Hero() {
+  const {toastSucess, toastFail } = useToast()
   return (
     <>
       <div className="relative h-screen w-full filter brightness-50">
@@ -25,7 +28,9 @@ export function Hero() {
             lá , depois divoltis porris, paradis. Casamentiss faiz malandris se
             pirulitá. Diuretics paradis num copo é motivis de denguis.
           </span>
-          <button className="rounded-lg bg-barber-shop-orange px-16 py-4 font-bold uppercase text-gray-50 hover:brightness-50">
+          <button
+            onClick={() => toastSucess("Agendamento realizado com sucesso!")}
+           className="rounded-lg bg-barber-shop-orange px-16 py-4 font-bold uppercase text-gray-50 hover:brightness-50">
             Agende seu corte
           </button>
         </div>

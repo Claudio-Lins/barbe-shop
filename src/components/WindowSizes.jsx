@@ -1,12 +1,13 @@
-import React, { useContext } from 'react'
-import WindowSizeContext from '../providers/windowSize'
-
+import React from 'react'
+import { useWindowSize } from '../hooks/useWindowSize'
 
 export function WindowSizes() {
-  const { windowWidth, windowHeight } = useContext(WindowSizeContext)
+  const { windowWidth, windowHeight } = useWindowSize()
   return (
-    <div className="absolute bg-white right-0 px-1 z-10">
-      <span>{windowWidth} x {windowHeight}</span>
+    <div className=" fixed right-2 top-1 z-10 rounded-md text-xs text-gray-100">
+      <span>
+        {windowWidth} x {windowHeight}
+      </span>
     </div>
   )
 }
