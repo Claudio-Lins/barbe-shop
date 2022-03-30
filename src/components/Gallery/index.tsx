@@ -12,7 +12,7 @@ export function Gallery() {
   return (
     <Container>
         <Line />
-        <div className="flex flex-col justify-center items-center space-y-2">
+        <div className="flex flex-col justify-center items-center space-y-2 mb-4">
         <strong>Confira nossa Galeria de fotos</strong>
         <h3 className="font-bold text-barber-shop-orange text-3xl">Cabelo / Barba</h3>
         </div>

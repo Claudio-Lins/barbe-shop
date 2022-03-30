@@ -7,8 +7,9 @@ export function Hero() {
   const {toastSucess, toastFail } = useToast()
   return (
     <>
-      <div className="relative h-screen w-full filter brightness-50">
+      <div className="relative h-screen w-full ">
         <Image
+          className="brightness-50"
           src="/imgs/hero/image_01.jpg"
           alt="Hero"
           layout="fill"

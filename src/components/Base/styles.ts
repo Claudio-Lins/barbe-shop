@@ -2,25 +2,14 @@ import tw from "tailwind-styled-components"
 
 
 export const Container = tw.div`
-    bg-red-600
-    flex
-    flex-col
-    justify-center
-    items-center
-    min-h-screen
+    max-w-max-content
+    lg:max-w-screen-lg
+    xl:max-w-screen-xl
+    2xl:max-w-screen-2xl
+    
+    mx-auto
     p-4
-
-    h1 {
-        font-bold
-        text-white
-    }
-     
-    h2 {
-        font-bold
-        text-white
-    }
+    md:px-8
+    2xl:px-0
+    py-20
 `
-export const Form = tw.form`
-    flex
-    flex-col
-    `

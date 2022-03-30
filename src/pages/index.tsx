@@ -1,5 +1,6 @@
 import type { NextPage } from 'next'
 import Head from 'next/head'
+import { Agende } from '../components/Agende'
 import { Gallery } from '../components/Gallery'
 import { Hero } from '../components/Hero'
 import { Servicos } from '../components/Servicos'
@@ -17,7 +18,7 @@ const Home: NextPage = () => {
         <meta name="description" content="Barbearia Oldfashion" />
       </Head>
       <div className="">
-        <main className="">
+        <main className="mb-10">
           <WindowSizes />
           <Hero />
           <Sobre />
@@ -25,6 +26,7 @@ const Home: NextPage = () => {
           <Servicos />
           <TablePrice />
           <Gallery />
+          <Agende />  
         </main>
       </div>
     </>

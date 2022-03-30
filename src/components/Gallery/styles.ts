@@ -1,12 +1,15 @@
-import tw from "tailwind-styled-components"
-
+import tw from 'tailwind-styled-components'
 
 export const Container = tw.div`
-    container
+    px-0
+    md:px-20
+    2xl:px-80
     flex
     flex-col
     justify-center
     items-center
-    h-[600px]
-    py-8
+    h-auto
+    max-h-[800px]
+    mx-auto
+    py-2
 `

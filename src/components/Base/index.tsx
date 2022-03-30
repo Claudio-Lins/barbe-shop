@@ -1,13 +1,11 @@
-import { Container } from "./styles";
+import { Container } from './styles'
 
-
-export function Card() {
+export function Base() {
   return (
-    <Container className="text-4xl">
-      <p className=" text-slate-400">
-        Título
-      </p>
+    <Container>
+      <section className="bg-green-500">
+      <h1 className=" text-slate-900">Base</h1>
+      </section>
     </Container>
-    
   )
 }
